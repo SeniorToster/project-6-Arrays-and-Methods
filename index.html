@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Массив и его методы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="arr-box">
+        <h1 class="arr-box__title">
+          <span>[ </span>Массив<span> ]</span> и его <span>.</span>методы<span
+            >( )</span
+          >
+        </h1>
+        <div class="array-methods">
+          <div class="methods methods_add">
+            <h2 class="methods__title">Добавление элементов</h2>
+            <div class="methods__btn-box">
+              <button class="methods__btn" id="push">
+                <span>.</span>push<span>( )</span>
+              </button>
+              <button class="methods__btn" id="unshift">
+                <span>.</span>unshift<span>( )</span>
+              </button>
+            </div>
+          </div>
+          <div class="methods methods_remove">
+            <h2 class="methods__title">Удаление элементов</h2>
+            <div class="methods__btn-box">
+              <button class="methods__btn" id="pop">
+                <span>.</span>pop<span>( )</span>
+              </button>
+              <button class="methods__btn" id="shift">
+                <span>.</span>shift<span>( )</span>
+              </button>
+              <button class="methods__btn" id="splice">
+                <span>.</span>splice<span
+                  >( <input type="number" /> , <input type="number" /> )</span
+                >
+              </button>
+              <button class="methods__btn" id="slice">
+                <span>.</span>slice<span
+                  >( <input type="number" /> , <input type="number" /> )</span
+                >
+              </button>
+            </div>
+          </div>
+          <div class="methods methods_includes">
+            <h2 class="methods__title">Поиск элементов</h2>
+            <div class="methods__btn-box">
+              <button class="methods__btn" id="indexOf">
+                <span>.</span>indexOf<span>( <input type="number" /> )</span>
+              </button>
+              <button class="methods__btn" id="includes">
+                <span>.</span>includes<span>( <input type="number" /> )</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <h1 class="arr-box__title"><span>[ </span>Массив<span> ]</span></h1>
+        <div class="array-wrapper">
+          <div class="array-wrapper__open"></div>
+          <div class="array-wrapper__main">
+            <div class="array-wrapper__item">🍏,</div>
+            <div class="array-wrapper__item">🍐</div>
+          </div>
+          <div class="array-wrapper__closed"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
