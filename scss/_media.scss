@@ -1,0 +1,138 @@
+@media (max-width: 1920px) {
+  .container {
+    scale: 0.8;
+    max-width: 1280px;
+    padding: 30px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    scale: 1;
+    padding: 30px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  .array-wrapper {
+    margin-bottom: 40px;
+    &__open {
+      height: 60px;
+      &_small {
+        height: 40px;
+      }
+    }
+    &__closed {
+      height: 60px;
+      &_small {
+        height: 40px;
+      }
+    }
+    &__main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 30px;
+    }
+    &__item {
+      font-size: 50px;
+      &_string {
+        font-size: 30px;
+      }
+      &_small {
+        font-size: 35px;
+      }
+    }
+  }
+  .methods {
+    &__btn-box {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 16px;
+  }
+  .arr-box {
+    padding: 16px;
+    &__title {
+      font-size: 30px;
+      margin-bottom: 20px;
+      span {
+        color: $color-orange;
+        font-size: 35px;
+      }
+    }
+  }
+  .array-wrapper {
+    margin-bottom: 20px;
+    &__open {
+      height: 50px;
+      &_small {
+        height: 40px;
+      }
+    }
+    &__closed {
+      height: 50px;
+      &_small {
+        height: 40px;
+      }
+    }
+    &__main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 18px;
+    }
+    &__item {
+      font-size: 42px;
+      &_string {
+        font-size: 26px;
+      }
+      &_small {
+        font-size: 32px;
+      }
+    }
+  }
+  .array-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .methods {
+    &__title {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    &__btn-box {
+      gap: 10px;
+    }
+    &__btn {
+      padding: 6px;
+      border: 2px solid $color-orange;
+      font-size: 16px;
+      span {
+        font-size: 18px;
+        input {
+          font-size: 12px;
+          width: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .arr-box {
+    &__title {
+      font-size: 28px;
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+}
